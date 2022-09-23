@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@100;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+
+  font-size: 62.5%;
+  /* font-family: "Roboto", sans-serif; */
+}
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2016/08/14/19/52/factory-1593842_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  width: 85vw;
+  margin: 1rem auto;
+  border-radius: 0.2rem;
+}
+.logo img {
+  width: 55px;
+  height: 25px;
+}
+.danna a {
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+}
+.danna a:nth-child(1) {
+  color: orange;
+}
+.lang {
+  text-transform: uppercase;
+  color: rgb(196, 196, 196);
+}
+.lang span:last-child {
+  color: rgb(231, 229, 229);
+}
+section {
+  width: 80vw;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+section h1 {
+  font-size: 4rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+}
+section button {
+  outline: none;
+  border: none;
+  padding: 1rem 2rem;
+  background-color: orange;
+  color: rgb(2, 2, 39);
+  max-width: max-content;
+}
+section .details {
+  font-size: 1.2rem;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.contact p span {
+  color: orange;
+}
+footer {
+  width: 85vw;
+  height: 2rem;
+  background-color: orange;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}

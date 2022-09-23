@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(121, 219, 92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  background-color: white;
+
+  border-radius: 1rem;
+}
+form h2 {
+  margin: 1rem 0 0.2rem 2rem;
+}
+form p {
+  margin: 0rem 0 0.2rem 2rem;
+  font-style: italic;
+  color: rgb(158, 158, 158);
+}
+.add {
+  margin: 1rem 0 0.2rem 2rem;
+}
+.add input {
+  border: 1px solid rgb(177, 177, 177);
+  padding: 0.2rem;
+}
+.add button {
+  padding: 0.3rem 1.2rem;
+  /* border: 1px solid rgb(36, 138, 233); /*whats happening here*/
+  border: none;
+  background-color: rgb(36, 138, 233);
+  color: white;
+  border-radius: 1rem;
+}
+form ol {
+  margin: 2rem 0rem 1rem 4.2rem;
+}
+form ol li {
+  margin-top: 0.3rem;
+}
+ol input {
+  border: none;
+  width: 18.5rem;
+  padding: 0.2rem 0.1rem;
+  background-color: rgb(221, 221, 221);
+  text-decoration: line-through;
+}
+.btndown {
+  margin: 2rem 2rem 2.5rem;
+}
+.btndown button {
+  border-radius: 1rem;
+  border: none;
+  color: white;
+  padding: 0.3rem 1rem;
+  text-transform: capitalize;
+}
+.btndown :first-child {
+  background-color: rgb(36, 138, 233);
+}
+.btndown :nth-child(2) {
+  background-color: rgb(146, 32, 17);
+}
+.btndown :last-child {
+  background-color: rgb(67, 165, 37);
+}

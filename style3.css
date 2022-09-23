@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,400;1,700;1,900&family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Lato", sans-serif;
+  font-size: 62.5%;
+}
+header {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.5rem 9%;
+  height: 64px;
+}
+
+.up {
+  font-size: 2rem;
+}
+header span {
+  color: rgb(31, 30, 30);
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 0.5rem;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.img {
+  width: 25px;
+  height: 25px;
+}
+.navi a {
+  text-decoration: none;
+  margin-left: 1.5rem;
+  color: rgb(103, 105, 103);
+}
+.navi :last-child {
+  background-color: rgb(182, 238, 182);
+  border-radius: 2rem;
+  padding: 1rem;
+  color: rgb(3, 43, 3);
+}
+section {
+  height: calc(100vh - 64px);
+
+  /*overflow-x: hidden;*/
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10rem;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 7%;
+}
+.text p,
+.text h1,
+.text button {
+  margin-top: 2rem;
+}
+.text h1 {
+  font-size: 6rem;
+  text-transform: capitalize;
+  flex-shrink: 0;
+}
+.text h1 span {
+  color: rgb(20, 98, 216);
+}
+.text p {
+  font-size: 2rem;
+  color: rgb(196, 195, 195);
+}
+.image {
+  position: relative;
+  overflow: hidden;
+  max-width: 45%;
+  /*margin-right: 4rem;*/
+  background-color: aqua;
+}
+.man {
+  position: relative;
+  height: 40em;
+  transform: scaleX(-1);
+  /* margin-right: 4rem;*/
+  z-index: 2;
+}
+.shape {
+  position: absolute;
+  width: 40rem;
+  height: 30rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.3;
+  z-index: 1;
+}
+.btn :first-child {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  border: 0;
+  background-color: rgb(20, 98, 216);
+  color: white;
+  text-transform: capitalize;
+}
+.btn :last-child {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  border: 0;
+  background-color: rgb(41, 207, 193);
+  color: white;
+  text-transform: capitalize;
+  margin-left: 0.7rem;
+}

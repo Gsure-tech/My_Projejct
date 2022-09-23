@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@100;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+.shade {
+  border: solid;
+  border-color: rgb(252, 252, 252);
+  padding: 0.5rem 2rem;
+}
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2015/10/22/17/32/smoke-1001664__480.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 20vh;
+  width: 100vw;
+}
+header {
+  color: white;
+}
+header nav svg {
+  width: 3rem;
+  height: 3rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+}
+nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+#cir {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+#cir p {
+  border: solid white;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+.tsakiya {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10rem;
+}
+.tsakiya h1 {
+  text-transform: uppercase;
+  font-size: 6rem;
+  text-align: center;
+  padding: 1rem 4rem;
+}
+.tsakiya svg {
+  width: rem;
+  height: 5rem;
+  margin: 2rem 2rem;
+  border: solid white;
+  display: block;
+  padding: 0.5rem;
+  flex-shrink: 0;
+  flex-basis: 2rem;
+}
+.tsakiya div p {
+  font-size: 2rem;
+  max-width: 60vw;
+  text-align: center;
+}
+#cir p:nth-child(1) {
+  background-color: white;
+}
